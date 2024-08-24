@@ -52,7 +52,14 @@
 
 
 
+        @media (min-width:500px) {
+            .pol-grid .mobile {
+                display: none;
+            }
+        }
+
         @media (max-width:625px) {
+
             .pol-grid .flex-container {
                 justify-content: center;
             }
@@ -68,7 +75,6 @@
 
             .pol-grid h2 {
                 text-align: center;
-                display: none;
             }
 
             .pol-grid p {
@@ -89,6 +95,7 @@
 <body>
     <!--last GitHub commit: KG - 8/26 9:15 CT —  URLs-->
     <div class="pol-grid">
+        <i class="mobile">If viewing in-app, tap and hold to view each category.</i>
         <h2>Federal</h2>
 
         <div class="flex-container">

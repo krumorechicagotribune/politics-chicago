@@ -7,7 +7,6 @@
             max-width: 850px;
             margin: 0 auto;
             font-family: "Noto Sans", sans-serif;
-
         }
 
         .pol-grid .flex-container {
@@ -52,20 +51,16 @@
             opacity: .75;
         }
 
-
-
-        @media (min-width:500px) {
+        @media (min-width:475px) {
             .pol-grid .mobile {
                 display: none;
             }
         }
 
         @media (max-width:625px) {
-
             .pol-grid .flex-container {
                 justify-content: center;
             }
-
 
             .pol-grid .flex-items {
                 padding: 5px 5px;
@@ -89,15 +84,26 @@
                 font-size: .83rem;
             }
 
+            @media (max-width:375px) {
+                .pol-grid img {
+                    width: 75px;
+                }
 
+                .pol-grid .flex-items {
+                    padding: 2px 10px;
+                }
 
+                .pol-grid p {
+                    font-size: .5em;
+                }
+
+            }
         }
     </style>
     <!--meta info-->
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--seo fields-->
